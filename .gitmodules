@@ -1,0 +1,3 @@
+[submodule "f.kth.se-themes"]
+	path = f.kth.se-themes
+	url = git@github.com:Fysiksektionen/f.kth.se-themes.git

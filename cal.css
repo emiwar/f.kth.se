@@ -1,0 +1,36 @@
+.widget_title {
+	font-family:"Century Gothic",Georgia,"Times New Roman",Times,serif;
+	font-size:16px;
+	}
+#wp-calendar {
+color:#333333;
+font-family:Georgia,"Times New Roman",Times,serif;
+font-size:10px;
+text-align:center;
+empty-cells:show;
+margin:10px auto 0;
+width:155px;
+}
+#wp-calendar #next a {
+padding-right:10px;
+text-align:right;
+}
+#wp-calendar #prev a {
+padding-left:10px;
+text-align:left;
+}
+#wp-calendar a {
+display:block;
+}
+#wp-calendar caption {
+text-transform:capitalize;
+text-align:center;
+
+}
+#wp-calendar td {
+padding:3px 0;
+text-align:center;
+}
+#wp-calendar td.pad:hover {
+background-color:#FFFFFF;
+}

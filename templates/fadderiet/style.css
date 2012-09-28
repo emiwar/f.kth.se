@@ -1,0 +1,421 @@
+.importera-kalender{
+	display: none;
+	border: 1px solid #ddd;
+	padding: 10px;
+}
+.fadderist{
+	float: left;
+	display: none;
+	margin-bottom: 100px;
+}
+.fadderister{
+	position: relative;
+	float: left;
+	height: 400px;
+	overflow: hidden;
+}
+.narrowcolumn .page .entry .fadderist p{
+	clear: none;
+}
+#mannska{
+	display: none;
+	visibility: hidden;
+}
+.till-fysik{
+	position: absolute;
+	left: 0;
+	top: 26px;
+}
+.ordlista td{
+	vertical-align: top;
+}
+#page {
+	background-color: transparent;
+	position: relative;
+}
+#sidebar {
+    background-color: white;
+    border-radius: 15px 15px 15px 15px;
+    padding-right: 20px;
+    width: 320px;
+    margin-bottom: 100px;
+}
+#sidebar .widget {
+	margin-left: 20px;
+    border-top: 1px solid #FF642B;
+}
+#content {
+    background-color: white;
+    border-radius: 15px 15px 15px 15px;
+    margin: 0 0 100px -20px;
+    padding: 20px;
+    width: 610px;
+}
+#header {
+	background: transparent;
+	position: relative;
+}
+#vansterskruvar {
+    left: -203px;
+    position: absolute;
+    top: 109px;
+}
+#hogerskruvar {
+	background: transparent url('hogerskruvar.png') no-repeat top left;
+    left: 946px;
+    position: absolute;
+    top: 102px;
+}
+#fadderiet-link {
+    left: -126px;
+    position: absolute;
+    top: 82px;
+    z-index: 51;
+}
+#header-norris {
+    left: 340px;
+    position: relative;
+    top: -36px;
+    width: 343px;
+    z-index: 51;
+}
+#sidebar ul li.widget_ths_submenu {
+	margin-left: 15px;
+}
+
+.mottagningen-countdown {
+    color: #20B4F1;
+    font-family: Trebuchet MS;
+    font-size: 106px;
+    line-height: 1em;
+    text-align: center;
+}
+
+/* Calendar */
+
+.tg-dualmarker, .tg-dualmarker60 {
+    border-bottom: 1px dotted #DDDDDD;
+    border-top: 1px solid #DDDDDD;
+    font-size: 1px;
+}
+.tg-hourmarkers {
+    position: absolute;
+    width: 100%;
+}
+.tg-spanningwrapper {
+    margin-left: 1px;
+    position: relative;
+    top: 1px;
+}
+
+.kalender {
+    margin-left: -10px;
+    table-layout: fixed;
+    width: 104%;
+    }
+.tg-times-pri, .tg-times-sec {
+    background-color: #F6F9FC;
+    color: #666666;
+    padding: 1px 0 0;
+    text-align: right;
+    vertical-align: top;
+}
+
+.tg-col {
+    border-left: 1px solid #DDDDDD;
+    vertical-align: top;
+}
+
+.tg-col-overlaywrapper {
+    height: 0;
+    position: relative;
+}
+.tg-gutter {
+    position: relative;
+    margin: -1px -3px 0 -2px;
+}
+.hover {
+	-webkit-box-shadow: 0 0 14px #FFFFFF;
+	-moz-box-shadow: 0 0 14px #FFFFFF;
+	box-shadow: 0 0 14px #FFFFFF;
+	z-index: 100;
+}
+.chip {
+    -moz-user-select: none;
+    color: #FFFFFF;
+    cursor: default;
+    overflow: hidden;
+    position: absolute;
+    left:0%;
+    width: 100%;
+}
+.chip dl {
+    margin: 0;
+    overflow: hidden;
+    padding: 0 0 1px;
+ 
+}
+.cbrd dt {
+    margin-top: 0;
+}
+.chip dd {
+    font: 11px/1.3em Verdana,sans-serif;
+    margin: 0;
+    overflow: hidden;
+    padding: 0 1px;
+    text-align: left;
+    word-wrap: break-word;
+}
+.chip dt {
+    font: bold 55% Verdana,sans-serif;
+    margin-top: -1px;
+    overflow: hidden;
+    padding: 0 0 1px;
+    text-align: left;
+    white-space: nowrap;
+    background-color:#0D7813;
+}
+.cbrd {
+	background-color:#8CBF40;
+    border: 1px solid #0D7813;
+    border-radius: 3px 3px 3px 3px;
+}
+
+.tim-tabell {
+	width: 37px;
+}
+.kal-beskrivning{
+	font-weight: bold;
+}
+.wk-weekname, .wk-dayname {
+    color: #A22B10;
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 14px;
+    overflow: hidden;
+    table-layout: fixed;
+    text-align: center;
+    white-space: nowrap;
+    width: 100%;
+}
+.wk-weekhead{
+	width: 37px;
+}
+.wk-weektop {
+    font-size: 11px;
+    line-height: 14px;
+}
+.wk-daynames {
+	background-color: #FEBD00;
+}
+
+.bubble {
+	z-index: 1001;
+	width: 400px;
+    font-size: 9pt;
+    left: 0;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    text-align: left;
+}
+.bubble-table {
+    table-layout: fixed;
+    width: 100%;
+}
+.bubble-cell-side {
+    width: 25px;
+}
+.bubble-corner {
+    height: 25px;
+    overflow: hidden;
+    position: relative;
+    width: 25px;
+}
+.bubble-tl {
+    left: 0;
+}
+.bubble-top {
+    border-top: 1px solid #ABABAB;
+}
+.bubble-tr {
+    left: -25px;
+}
+.bubble-bl {
+    left: 0;
+    top: -25px;
+}
+.bubble-br {
+    left: -25px;
+    top: -25px;
+}
+.bubble-top, .bubble-bottom {
+    background: none repeat scroll 0 0 #FFFFFF;
+    height: 24px;
+}
+.bubble-sprite {
+    background-image: url("//calendar.google.com/googlecalendar/images/bubble_combined_v2.png");
+    height: 96px;
+    position: absolute;
+    width: 148px;
+}
+.prong .bubble-sprite {
+    left: -52px;
+    top: -24px;
+}
+.prong {
+    height: 72px;
+    margin-bottom: -72px;
+    overflow: hidden;
+    position: relative;
+    top: -1px;
+    width: 98px;
+}
+.bubble-bottom {
+    border-bottom: 1px solid #ABABAB;
+}
+.bubble-mid {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-left: 1px solid #ABABAB;
+    border-right: 1px solid #ABABAB;
+    padding: 0 20px;
+}
+.eb-data td, .eb-data th {
+    line-height: 1.5;
+    padding: 0;
+}
+.eb-root {
+    font: 13px Arial,sans-serif;
+    overflow: hidden;
+    width: 100%;
+}
+table.eb-data {
+    border-spacing: 0;
+}
+.eb-title {
+	color: #0D7813;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 1em;
+    overflow: hidden;
+    width: 95%;
+}
+.eb-date {
+    margin-bottom: 1em;
+}
+.eb-data th {
+    padding-right: 10px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.eb-footer {
+    border-top: 1px solid #DDDDDD;
+    margin-top: 0.5em;
+    padding-top: 1em;
+}
+.goog-inline-block {
+    display: inline-block;
+    position: relative;
+}
+.eb-popup {
+    background: none repeat scroll 0 0 white;
+    border: 1px solid #ABABAB;
+    box-shadow: 3px 3px 3px #CCCCCC;
+    padding: 5px;
+    position: absolute;
+    visibility: hidden;
+}
+.bubble-closebutton {
+    background: url("//calendar.google.com/googlecalendar/images/combined_v21.png") repeat scroll 0 -50px transparent;
+    cursor: pointer;
+    height: 13px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 14px;
+}
+.chip dd .kal-beskrivning:hover{
+	text-decoration: underline;
+}
+.chip {
+	cursor: pointer;
+}
+
+.matte .cbrd{
+	background-color: #41a587;
+	border-color: #227f63;
+}
+.matte dt {
+	background-color: #227f63;
+}
+.lunch .cbrd{
+	background-color: #e0c23f;
+	border-color:#f2a63f;
+}
+.lunch dt {
+	background-color: #f2a63f;
+}
+.info .cbrd {
+	background-color: #58bfb3;
+	border-color: #22aa99;
+}
+.info dt {
+	background-color: #22aa99;
+}
+.fest .cbrd {
+	background-color: #E67399;
+	border-color: #B1365F;
+}
+.fest dt {
+	background-color: #B1365F;
+}
+.lekar .cbrd {
+	background-color: #8997a5;
+	border-color: #627487;
+}
+.lekar dt {
+	background-color: #627487;
+}
+.obl .cbrd {
+    background-color: #FF0000;
+    border-color: #BE0000;
+}
+.obl dt {
+	background-color: #BE0000;
+}
+.obl .text_titel{
+	color: #F00;
+}
+
+
+.text_tid {
+    float: left;
+    font-style: italic;
+    width: 100px;
+}
+.text_plats{
+	font-size: 92%;
+	}
+.text_titel{
+	font-weight: bold;
+	}
+.visa_beskrivning{
+	font-size: 10px;
+	}
+.text_beskrivning{
+	margin: 10px;
+	display: none;
+}
+.text_day{
+	margin-bottom: 20px;
+}
+.text_day h2{
+	margin: 10px 0;
+}
+.text_aktivitet{
+	clear: both;
+}
+#meny li a {
+	padding: 15px 23px;
+}

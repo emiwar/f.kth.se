@@ -1,0 +1,58 @@
+.matches {
+
+}
+
+.matches th {
+ text-align: left;
+}
+
+.matches td {
+ padding: 1px;
+ height: 1.2em;
+}
+
+.matches .username {
+ width: 14em;
+}
+.matches .sekt {
+ width: 2.4em;
+}
+.matches .mail {
+ width: 10em;
+}
+.matches .homepage {
+ width: 10em;
+}
+.sok { 
+  padding-bottom: 0.25em;
+  border-bottom: 1px solid #DBDBDB;
+  margin-bottom: 1em;
+}
+
+.sekt IMG { 
+  width:1.2em;
+  height:1.2em;
+}
+
+.D {background:#F2007F;}
+.E {background:#FFFFFF;color:black;}
+.F {background:#FB7E05;}
+.K,.B {background:#FFFF00;color:black;}
+.M {background:#990000;}
+.T {background:#0066cc;}
+.P {background:#ddddff;color:black;}
+.V {background:#446d56;}
+.I {background:#824b23;}
+
+.userimage {
+ float:right;
+ border:1px solid black;
+}
+
+.info {
+ float:left;
+ margin-right:30px;
+}
+ .info dl{
+ margin:0px;
+}

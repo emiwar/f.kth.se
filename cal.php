@@ -1,4 +1,6 @@
-<?php header('Content-type: text/javascript'); ?>
+<?php
+header('Content-type: text/javascript');
+?>
 /*!
  * jQuery JavaScript Library v1.4
  * http://jquery.com/
@@ -155,19 +157,20 @@ b],e.documentElement["scroll"+b],e.body["offset"+b],e.documentElement["offset"+b
 <?php endif; ?>
 if(jQuery){
 
-    function get_cal(m){
-        jQuery('#ths_calendar_wrap').html('<img style="margin:auto;display:block" src="http://f.kth.se/wordpress/wp-admin/images/loading.gif" />');
+function get_cal(m){
+	jQuery('#ths_calendar_wrap').html('<img style="margin:auto;display:block" src="http://f.kth.se/wordpress/wp-admin/images/loading.gif" />');
     
-        var addstring = '';
+    var addstring = '';
   
-        if(m) {
-            addstring = m + '/';
-        }
-        jQuery.get("/cal-ajax/" + addstring, {}, function(data){
-            jQuery("#ths_calendar_wrap").html(data);							 
-        })
-    }
-    jQuery(document).ready(function(){
-        get_cal('<?php if($_GET['m']) : echo $_GET['m']; endif; ?>');		   
-    });
+    if(m)
+    addstring = m + '/';
+    
+	jQuery.get("http://f.kth.se/cal-ajax/" + addstring,{},function(data){
+												jQuery("#ths_calendar_wrap").html(data);							 
+																			 })
+	}
+jQuery(document).ready(function(){
+			get_cal('<?php if($_GET['m']) : echo $_GET['m']; endif; ?>');		   
+	});
+
 }

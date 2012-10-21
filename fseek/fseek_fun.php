@@ -135,10 +135,12 @@ function userInfo($user) {
   
   $home = explode('/',$user[5]);
   $offset = count($home);
-  
-  if(file_exists($user[5].'/.bild'))
+
+
+  if(file_exists($user[5].'/.bild')){
     $mrl = $user[5].'/.bild';
-  else if(file_exists($user[5].'/Public/.bild') && !is_dir($user[5].'/Public/.bild'))
+
+  }else if(file_exists($user[5].'/Public/.bild') && !is_dir($user[5].'/Public/.bild'))
     $mrl = $user[5].'/Public/.bild';
   else {
     $file = "/afs/nada.kth.se/misc/hacks/graphic/bitmaps/xfinger/".$home[$offset-2].'/'.$home[$offset-1];
@@ -253,3 +255,4 @@ function userSearch($user) {
 } 
 
 ?>
+

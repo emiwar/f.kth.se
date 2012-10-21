@@ -1,6 +1,6 @@
 <?php 
 define('SHORTINIT',true);
-require('wp-load.php');
+require('wordpress/wp-load.php');
 function mynl2br($text) {
    return strtr($text, array("\r\n" => '', "\r" => '', "\n" => '',"'" => '"','pagenav' => 'menupop" onmouseout="hideNav(this)" onmouseover="showNav(this)'));
 } 

@@ -8,11 +8,11 @@ media
 #Övrigt
 old
 nollesystem
+frageladan
 seniorregister/config.php
 
 #Tredjeparts
 daskwiki
-tools/phpMyAdmin
-tools/phpPgAdmin
-libs/CAS
-libs/Zend
+tools
+libs
+

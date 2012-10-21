@@ -8,13 +8,11 @@ media
 #Övrigt
 old
 nollesystem
+frageladan
+boka
 seniorregister/config.php
 
 #Tredjeparts
-CAS
-Zend
 daskwiki
-tools/phpMyAdmin
-tools/phpPgAdmin
-libs/CAS
-libs/Zend
+libs
+tools

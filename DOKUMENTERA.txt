@@ -41,3 +41,6 @@ Rad 20, remove: <?php endif; ?>
 Rad 45, remove: .narrowcolumn .page .entry p {
 Rad 46, remove: 	clear:both;
 Rad 47, remove: }
+
+8. wp-content/themes/THS/head.php
+Remove: <script type="text/javascript" src="<?php bloginfo("siteurl"); ?>/cal.php?m=<?php if(is_date()){ if($year) { echo $year; } if($monthnum) {printf("%02d",$monthnum);}} ?><?php  if(is_front_page()): ?>&amp;exclude_jquery<?php endif; ?>"></script>

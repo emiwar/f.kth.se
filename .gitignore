@@ -16,3 +16,7 @@ robots.txt
 daskwiki
 libs
 tools
+
+#Seniorregister
+seniorregister/sql
+seniorregister/config.php
